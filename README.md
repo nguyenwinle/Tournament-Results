@@ -1,8 +1,8 @@
 #Tournament Results
 
-This project taught me how to create, manipulate, and use databases through the modeling of a database schema. It is broken down into two parts: 
+This project teaches you how to create, manipulate, and use databases through the modeling of a database schema. It is broken down into two parts: 
 
-1. Modeling the database schema in *tournament.sql* where the SQL code will be created using the PostgreSQL datbase that will keep track of the players and matches in the game tournament. 
+1. Modeling our database schema in *tournament.sql* where the SQL code will be created using the PostgreSQL datbase that will keep track of the players and matches in the game tournament. 
 
 2. Writing and defining the python code in *tournament.py* that will keep track of the swiss tournament. 
 
@@ -32,16 +32,27 @@ $ psql -f tournament.sql (This will create the database schema for the Tournamen
 For windows users, open a second window (Git Bash) to test *tournament_test.py*. To do this, type python tournament_test.py then press enter. Your test should look like this:
 
 vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
+
 1. countPlayers() returns 0 after initial deletePlayers() execution.
+
 2. countPlayers() returns 1 after one player is registered.
+
 3. countPlayers() returns 2 after two players are registered.
+
 4. countPlayers() returns zero after registered players are deleted.
+
 5. Player records successfully deleted.
+
 6. Newly registered players appear in the standings with no matches.
+
 7. After a match, players have updated standings.
+
 8. After match deletion, player standings are properly reset.
+
 9. Matches are properly deleted.
+
 10. After one match, players with one win are properly paired.
+
 Success!  All tests pass!
 
 
