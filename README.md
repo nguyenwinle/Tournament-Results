@@ -2,7 +2,7 @@
 
 This project teaches you how to create, manipulate, and use databases through the modeling of a database schema. It is broken down into two parts: 
 
-1. Modeling our database schema in *tournament.sql* where the SQL code will be created using the PostgreSQL datbase that will keep track of the players and matches in the game tournament. 
+1. Modeling our database schema in *tournament.sql* where the SQL code will be created using the PostgreSQL database that will keep track of the players and matches in the game tournament. 
 
 2. Writing and defining the python code in *tournament.py* that will keep track of the swiss tournament. 
 
