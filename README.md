@@ -1,4 +1,4 @@
-#Tournament Results
+# Tournament Results
 
 This project teaches you how to create, manipulate, and use databases through the modeling of a database schema. It is broken down into two parts: 
 
@@ -8,7 +8,7 @@ This project teaches you how to create, manipulate, and use databases through th
 
 The idea behind this database project on a swiss tournament is that we want our code to match players of the same or close to the number of wins a player has. Each player has a fair chance to play against different players of the same level in several different rounds and are not eliminated from play. The winner of the tournament will be the player that achieves the most wins.  
 
-##Setup
+## Setup
 
 This project requires a virtual machine such as VirtualBox and Vagrant. The virtual machine is preconfigured with a PostgreSQL database server.
 
@@ -17,14 +17,14 @@ Links to VirtualBox and Vagrant:
 [Vagrant](https://www.vagrantup.com/)
 
 
-###Run Project
+### Run Project
 * Clone or download and unzip this repo on your computer.
 * Open Git Bash 
 * Change directory to vagrant
 * Run vagrant up (this will start a virtual machine)
 * After vagrant is running, run vagrant ssh to log into the virtual machine
 
-###Testing
+### Testing
 To test out the files, type psql and add the path to *tournament.sql* in your virtual machine: 
 
 $ psql -f tournament.sql (This will create the database schema for the Tournament).
